@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="13" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="parameters test" duration-ms="2041" started-at="2020-01-12T10:42:05 EST" finished-at="2020-01-12T10:42:07 EST">
+    <groups>
+      <group name="regression">
+        <method signature="TestTags.logInPerformanceTest2()[pri:0, instance:io.techleadacademy.TestNG11.TestTags@42d80b78]" name="logInPerformanceTest2" class="io.techleadacademy.TestNG11.TestTags"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test01" duration-ms="2041" started-at="2020-01-12T10:42:05 EST" finished-at="2020-01-12T10:42:07 EST">
+      <class name="io.techleadacademy.TestNG11.TestTags">
+        <test-method status="PASS" signature="logInPerformanceTest2()[pri:0, instance:io.techleadacademy.TestNG11.TestTags@42d80b78]" name="logInPerformanceTest2" duration-ms="2011" started-at="2020-01-12T10:42:05 EST" finished-at="2020-01-12T10:42:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInPerformanceTest2 -->
+      </class> <!-- io.techleadacademy.TestNG11.TestTags -->
+    </test> <!-- Test01 -->
+  </suite> <!-- parameters test -->
+</testng-results>

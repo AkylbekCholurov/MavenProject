@@ -8,26 +8,44 @@ public class TestData {
 //        System.out.println(TestData.getRandomAddress());
 //    }
 
-        public static String getRandomFirstName () {
-            Faker faker = new Faker();
+    public static String getRandomFirstName() {
+        Faker faker = new Faker();
 
-            return faker.name().firstName();
-        }
+        return faker.name().firstName();
+    }
 
-        public static String getRandomLastName () {
-            Faker faker = new Faker();
-            System.out.println(faker.name().lastName());
-            return faker.name().lastName();
-        }
+    public static String getRandomLastName() {
+        Faker faker = new Faker();
+        System.out.println(faker.name().lastName());
+        return faker.name().lastName();
+    }
 
-        public static String getRandomPhoneNum () {
-            Faker faker = new Faker();
-            return faker.phoneNumber().phoneNumber();
-        }
+    public static String getRandomPhoneNum() {
+        Faker faker = new Faker();
+        return faker.phoneNumber().phoneNumber();
+    }
 
-        public static String getRandomAddress () {
-            Faker faker = new Faker();
-            return faker.address().fullAddress();
-        }
+    public static String getRandomAddress() {
+        Faker faker = new Faker();
+        return faker.address().fullAddress();
+    }
+
+    public static String getRandomEmail() {
+        Faker faker = new Faker();
+        return faker.internet().emailAddress();
+    }
+
+    public static String getPassword() {
+        Faker faker = new Faker();
+        return faker.internet().password();
+
+    }
+
+    public static String getCommformPassword() {
+        Faker faker = new Faker();
+        return faker.internet().password();
+
+
+    }
 
 }
